@@ -1,0 +1,37 @@
+@font-face {
+  font-family: Nunito;
+  src: url("../fonts/Nunito/Nunito-Regular.ttf"); }
+* {
+  margin: 0 auto; }
+
+body {
+  height: 100hv; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.button {
+  box-sizing: border-box;
+  padding: 0.2em 0.5em;
+  border: 2px solid black;
+  font-weight: bold;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7); }
+
+#error_404 {
+  padding: 10% 0;
+  font-family: Nunito;
+  background-image: url("../images/fondo_acuarela.jpg"); }
+  #error_404 div {
+    text-align: center; }
+    #error_404 div > :first-child {
+      font-size: 3em; }
+    #error_404 div > :nth-child(2) {
+      font-size: 15em; }
+    #error_404 div > :nth-child(3) {
+      font-size: 2em; }
+    #error_404 div p {
+      font-size: 1.2em; }
+
+/*# sourceMappingURL=error_404_style.css.map */
