@@ -7,9 +7,6 @@
 * {
   font-family: Nunito, sans-serif; }
 
-input-placeholder {
-  font-family: Nunito, sans-serif; }
-
 a {
   font-family: inherit;
   text-decoration: none;
@@ -77,19 +74,18 @@ input[type="submit"] {
   margin: 4em 0;
   padding: 1.5em;
   background-image: linear-gradient(-45deg, lightcyan, paleturquoise, lightcyan, paleturquoise, lightcyan); }
-
-#newsletter_form {
-  text-align: center;
-  padding: 2em;
-  background-color: white; }
-  #newsletter_form h2 {
-    font-size: 2.5em;
-    margin: 0; }
-  #newsletter_form p {
-    font-weight: bold;
-    font-size: 1.2em; }
-  #newsletter_form input {
-    margin: 1em 0; }
+  #newsletter_sign_up form {
+    text-align: center;
+    padding: 2em;
+    background-color: white; }
+    #newsletter_sign_up form h2 {
+      font-size: 2.5em;
+      margin: 0; }
+    #newsletter_sign_up form p {
+      font-weight: bold;
+      font-size: 1.2em; }
+    #newsletter_sign_up form input {
+      margin: 1em 0; }
 
 main {
   text-align: center;
